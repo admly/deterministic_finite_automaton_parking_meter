@@ -25,7 +25,7 @@ public class Automaton {
     	
     	else if(state == 0){
     		string.setLength(0);
-    		return "Too much money, returnig your coins. Try again.";}
+    		return "Too much money, returning your coins.\nTry again.";}
 		
 		return String.valueOf(status + state);
 	}}
